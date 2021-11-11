@@ -32,24 +32,29 @@ Allow users to save the VWAP calculations in 2 separate files. The VWAP calculat
 ## Objective 3
 Allow users the chance to save the VWAP calculations in a file format other than the first (.csv). I chose a .json file, as this would be suitable for web APIs and automation.
 
-| [.csv or .json saving option]() |
+| .csv or .json saving option |
 |------|
-![]()      |
+![](csvOrJson.png)|
 
-[Zurich Tonhalle (1957)]() | 
-:-------------------------:|:
-![Zurich Tonhalle poster](https://github.com/ojawolesi/ManifestoTechnicalChallenge/blob/master/task1/Extra-konzert%20on%20Flickr%20-%20Photo%20Sharing!.jpg)  |
+## Objective 4
+Allow users to filter table results, as well as input trade records. Users should also be able to view this in an innovative way.
 
-
-Objective 4
-Provide a simple interface to be able to
-Allow selection(filtering) and input of an Epic
-Display the overall VWAP and the VWAP per trade type for that stock in an innovative way
+Filtering | Input of trades
+:-------------------------:|:-------------------------:
+![](Filtering.png)  |  ![](InputEpic.png)
 
 
-Objective 5
-What other data/calculations might be of interest apart from VWAP?
+| Display in an innovative way |
+|------|
+![](Display.png)|
 
+## Objective 5
+The other data/calculations that might be of interest apart from VWAP are:
+*
+*
+*
 
-Objective 6
-comment on any aspects of the data that strike you
+## Objective 6
+Aspects of the data that struck me include:
+*
+*
