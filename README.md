@@ -50,11 +50,18 @@ Filtering | Input of trades
 
 ## Objective 5
 The other data/calculations that might be of interest apart from VWAP are:
-*
-*
-*
+* Calculate the percentage of a stock that a unique stock / type has been traded  
+* Calculate the percentage all trades that a unique stock has been traded 
+* The standard deviation of trades within a unique/stock combination 
+    * could also have been expressed via a box and whisker plot of the dataset 
 
 ## Objective 6
 Aspects of the data that struck me include:
-*
-*
+* HXSP had a very high price average price and across the unique stock / type where it had been traded it maintained its greater comparative price 
+* FXOG had a very high price
+* The data did not include any time, which I assume real-world data would as to track moving prices
+
+
+| Stock/Type View |
+|------|
+![](Stock:Type view.png)|

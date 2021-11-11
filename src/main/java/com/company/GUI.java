@@ -7,11 +7,10 @@ import org.jfree.chart.axis.NumberAxis;
 import org.jfree.chart.plot.CategoryPlot;
 import org.jfree.chart.plot.ValueMarker;
 import org.jfree.chart.renderer.category.BarRenderer;
-import org.jfree.chart.renderer.category.CategoryItemRenderer;
 import org.jfree.chart.renderer.category.LineAndShapeRenderer;
-import org.jfree.data.category.DefaultCategoryDataset;
 import org.jfree.ui.RectangleAnchor;
 import org.jfree.ui.TextAnchor;
+import org.jfree.data.category.DefaultCategoryDataset;
 
 import javax.swing.*;
 import javax.swing.filechooser.FileNameExtensionFilter;
@@ -299,12 +298,12 @@ public class GUI implements ActionListener{
         // initialising plot, plot dataset and bar rendering object
         CategoryPlot plot = new CategoryPlot();
         DefaultCategoryDataset catDag = new DefaultCategoryDataset();
-        CategoryItemRenderer baRenderer = new BarRenderer();
+        BarRenderer baRenderer = new BarRenderer();
 
         // loop through VWAP Stock/Type data and add to plot dataset
         for (String s : vwapStockTypeList) {
             String[] vSTL = s.split(",");
-            catDag.addValue(Double.parseDouble(vSTL[2]), vSTL[0], vSTL[1]);
+            catDag.addValue(Double.parseDouble(vSTL[2]), vSTL[1], vSTL[0]);
         }
         // renders bar chart
         plot.setDataset(1, catDag);
@@ -312,7 +311,7 @@ public class GUI implements ActionListener{
 
 
         catDag = new DefaultCategoryDataset();
-        CategoryItemRenderer lineRenderer = new LineAndShapeRenderer();
+        LineAndShapeRenderer lineRenderer = new LineAndShapeRenderer();
 
         Color[] paintList = new Color[]{
                 Color.RED,
