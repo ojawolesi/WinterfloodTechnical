@@ -64,4 +64,4 @@ Aspects of the data that struck me include:
 
 | Stock/Type View |
 |------|
-![](Stock:Type view.png)|
+![](StockType view.png)|
